@@ -7,6 +7,6 @@
 📂 Files will be listed below:
 - `C102_1.cpp` | 5 Minute Interview
 - `C102_2.cpp` | Part 1 of Lab
-- 'C102_3.cpp' | Part 2 of Lab
+- `C102_3.cpp` | Part 2 of Lab
 
 📹 Watch the [5‑minute interview](https://www.youtube.com/@8BitSoftware)<br/>

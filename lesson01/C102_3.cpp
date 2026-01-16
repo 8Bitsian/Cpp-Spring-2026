@@ -23,9 +23,9 @@
 
 #include <iostream>  // Allows use of input/output objects like cout and cin
 #include <string>    // Allows use of the string data type
-#include <iomanip>
-#include <cstdio>
-using namespace std;
+#include <iomanip>   // Allows use of formatting tools (not used in this program)
+#include <cstdio>    // Allows C-style printing functions like printf
+using namespace std; // Allows use of standard library without std:: prefix
 
 int main() {  // Program execution starts here
   

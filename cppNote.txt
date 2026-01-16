@@ -1,0 +1,19 @@
+/* Imani Hollie ##/##/2026
+   Lesson # Lab: Write a code to produce a similar output to the sample output.
+   
+   Sample Output:
+   ^^^
+*/
+
+/*
+#include <iostream>  // Allows use of input/output objects like cout and cin
+#include <string>    // Allows use of the string data type
+#include <iomanip>   // Allows use of formatting tools (not used in this program)
+#include <cstdio>    // Allows C-style printing functions like printf
+using namespace std; // Allows use of standard library without std:: prefix
+
+int main() {  // Program execution starts here
+  // Block Code
+  return 0;  // Ends the program
+}
+*/

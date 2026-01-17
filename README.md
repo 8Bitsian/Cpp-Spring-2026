@@ -15,7 +15,3 @@
 - [Lesson 8](./lesson08/) - Pointers
 - [Lesson 9](./lesson09/) - Characters, C-Strings, and More About the string Class
 - [Lesson 10](./lesson10/) - Structured Data
-
-📹 Filming videos about Computer Programming on [YouTube](https://www.youtube.com/@8BitSoftware)<br/>
-🦋 Posting about Computer Programming on [BlueSky](https://bsky.app/profile/8bitsian.bsky.social)<br/>
-🫱🏻‍🫲🏽 I am always open to collaboration on new projects! Constructive feedback on my code is greatly appreciated<br/>

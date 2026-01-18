@@ -22,7 +22,6 @@ int main() {          // Program execution starts here
 
   // Get user's name
   cout << "Name? ";   // Prompt asking for the user's name without a newline
-  cin.ignore();       // Clears leftover newline from previous input
   getline(cin, name); // Reads the entire line, allowing spaces in the name
 
   // Get user's last 4-digits of phone number

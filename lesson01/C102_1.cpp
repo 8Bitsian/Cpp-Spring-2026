@@ -10,34 +10,31 @@
    Last 4-digit phone number: ****
 */
 
-#include <iostream>   // Allows use of input/output objects like cout and cin
-#include <string>     // Allows use of the string data type
-using namespace std;  // Allows use of standard library without std:: prefix
+#include <iostream>     // Allows use of input/output streams (cout, cin)
+#include <string>       // Allows use of string data type and related functions (size() and find_first_not_of())
+using namespace std;    // Allows use of standard library w/out std:: prefix
 
-int main() {          // Program execution starts here
+int main() {            // Program execution entry point
   
   // Declare variables
-  short phone;        // Variable to store the last 4 digits of the phone number
-  string name;        // Variable to store the user's full name
+  string name, phone;   // Variable to store user's name and phone number
 
   // Get user's name
-  cout << "Name? ";   // Prompt asking for the user's name without a newline
-  getline(cin, name); // Reads the entire line, allowing spaces in the name
+  cout << "Name? ";     // Prompt asking for user's name (w/out a newline)
+  getline(cin, name);   // Reads full line (allows spaces in the name)
 
   // Get user's last 4-digits of phone number
-  cout << "Last 4-digit phone number? ";  // Prompt asking for the user's phone without a newline
-  cin >> phone;       // Reads the number from keyboard input
-
-  // Validate phone number is 4 digits
-  while (phone < 0 || phone > 9999) {        // While loop that ensures the number is between 0000 and 9999
-    cout << "ERROR: Invalid Input" << endl;  // Error message for invalid input
-    cout << "Enter 4 Digits: ";              // Prompt asking user to try again
-    cin >> phone;                            // Reads new input
-  }
+  do {                  // Do-While loop validates the number is 4-digits
+    cout << "Last 4-digit phone number? ";  // Prompt asking for the user's phone (w/out a newline)
+    cin >> phone;         // Reads the keyboard input (doesn't allow spaces)
+  } while (.               // Repeat while input is invalid:
+    phone.size() != 4 ||   // - Wrong length (not 4 char)
+		phone.find_first_not_of("0123456789") // - Contains non-digits using the find_first_not_of()...
+    != string::npos);                     //   ... returns npos (no position) if nothing is found
   
   // Output user's name and last 4-digit phone number
   cout << "Your name: " << name << endl;                  // Prints user's name to the console
   cout << "Last 4-digit phone number: " << phone << endl; // Print's user's phone to the console
-  
-  return 0; // Ends the program
+
+  return 0; // Ends the program if successful
 }

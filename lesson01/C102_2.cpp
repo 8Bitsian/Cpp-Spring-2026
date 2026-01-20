@@ -1,5 +1,5 @@
 /* Imani Hollie 01/16/2026
-   Lesson 2 Lab: Analyze and explain the code line by line to determine its purpose.
+   Lesson 1 Lab: Analyze and explain the code line by line to determine its purpose.
    
    Sample Program:
    // This program is ***

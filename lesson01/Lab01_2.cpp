@@ -1,5 +1,5 @@
 /* Imani Hollie 01/16/2026
-   Lesson 2 Lab: Write a code to produce a similar output to the sample output.
+   Lesson 1 Lab: Write a code to produce a similar output to the sample output.
    Use the following variable names:
    myName: User's name
    myAge: User's age
